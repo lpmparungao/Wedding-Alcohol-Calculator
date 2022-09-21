@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_corners"
+        android:gravity="center_horizontal"
+        android:minWidth="160dp"
+        android:minHeight="160dp"
+        android:paddingTop="16dp"
+        android:text="@string/calculator"
+        android:textColor="@color/primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/app_picker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/calculator_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/enter"
+        android:textColor="@color/primary_75"
+        android:textSize="16sp"
+        app:cornerRadius="60pt"
+        app:layout_constraintBottom_toBottomOf="@+id/app_calculator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/app_calculator"
+        app:layout_constraintVertical_bias="1"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/app_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_corners"
+        android:gravity="center_horizontal"
+        android:minWidth="160dp"
+        android:minHeight="160dp"
+        android:paddingTop="16dp"
+        android:text="@string/picker"
+        android:textColor="@color/primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_calculator"
+        app:layout_constraintVertical_bias="1"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/picker_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/enter"
+        android:textColor="@color/primary_75"
+        android:textSize="16sp"
+        app:cornerRadius="60pt"
+        app:layout_constraintBottom_toBottomOf="@+id/app_picker"
+        app:layout_constraintEnd_toEndOf="@+id/app_picker"
+        app:layout_constraintStart_toStartOf="@+id/app_picker"
+        app:layout_constraintTop_toTopOf="@+id/app_picker"
+        app:layout_constraintVertical_bias="1"
+        tools:ignore="TextContrastCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

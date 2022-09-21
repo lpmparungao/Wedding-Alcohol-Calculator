@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">WSAP_Extension</string>
+    <string name="calculator">Wedding\nAlcohol\nCalculator</string>
+    <string name="picker">Wedding\nDress\nPicker</string>
+    <string name="enter">ENTER</string>
+    <string name="calc_title">WEDDING ALCOHOL CALCULATOR</string>
+    <string name="guest_num">Number of Guests</string>
+    <string name="dur_hours">Reception Duration (hours)</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="wine_fragment">wine fragment</string>
+    <string name="beer">BEER</string>
+    <string name="wine">WINE</string>
+    <string name="liquor">LIQUOR</string>
+    <string name="beer_drinkers1">Percent of beer drinkers(0–100%)</string>
+    <string name="beer_drinkers2">Number of beer drinkers</string>
+    <string name="liquor_drinkers1">Percent of liquor drinkers(0–100%)</string>
+    <string name="liquor_drinkers2">Number of liquor drinkers</string>
+    <string name="wine_drinkers1">Percent of wine drinkers(0–100%)</string>
+    <string name="wine_drinkers2">Number of wine drinkers</string>
+    <string name="cost_of_beer">Cost of beer per bottle</string>
+    <string name="cost_of_wine">Cost of wine per bottle</string>
+    <string name="cost_of_liquor">Cost of liquor per bottle</string>
+    <string name="sample_hour">5</string>
+    <string name="sample_guest">50</string>
+    <string name="results">RESULTS</string>
+    <string name="estimated_cost">Estimated Cost  : </string>
+    <string name="estimated_cost_beer">Estimated cost of beer  : </string>
+    <string name="estimated_cost_wine">Estimated cost of wine  : </string>
+    <string name="estimated_cost_liquor">Estimated cost of liquor  : </string>
+    <string name="number_of_beer_bottle">Bottles of beer to purchase : </string>
+    <string name="number_of_wine_bottle">Bottles of wine to purchase : </string>
+    <string name="number_of_liquor_bottle">Bottles of liquor to purchase : </string>
+    <string name="bartender_tip">Bartender tip  : </string>
+    <string name="default_value">₱ 0</string>
+    <string name="bottle_default_value">0</string>
+    <string name="integer_checkbox">Use integers instead of percentage</string>
+    <string name="bottle_per_person">Bottles per person every hour</string>
+    <string name="glass_per_person">Glasses per person every hour</string>
+
+
+    <!--Dress Picker Strings-->
+    <string name="dress_title1">Select Your Body Type</string>
+    <string name="dress_title2">Select Gown Type</string>
+    <string name="dress_title3">Select Neck line</string>
+    <string name="dress_title4">Decide on a Train</string>
+    <string name="dress_title5">Summary</string>
+
+    <string name="body_option1">Rectangle</string>
+    <string name="body_option2">Triangle</string>
+    <string name="body_option3">Round</string>
+    <string name="body_option4">Inverted\nTriangle</string>
+    <string name="body_option5">Hourglass</string>
+
+    <string name="rectangle_gown_option1">A-Line\n(Recommended)</string>
+    <string name="rectangle_gown_option2">Empire\n(Recommended)</string>
+    <string name="rectangle_gown_option3">Mermaid</string>
+    <string name="rectangle_gown_option4">Sheath</string>
+    <string name="rectangle_gown_option5">Ball Gown</string>
+
+    <string name="rectangle_results_gown_option1">A-Line</string>
+    <string name="rectangle_results_gown_option2">Empire</string>
+    <string name="rectangle_results_gown_option3">Mermaid</string>
+    <string name="rectangle_results_gown_option4">Sheath</string>
+    <string name="rectangle_results_gown_option5">Ball Gown</string>
+
+    <string name="triangle_results_gown_option1">A-Line</string>
+    <string name="triangle_results_gown_option2">Empire</string>
+    <string name="triangle_results_gown_option3">Ball Gown</string>
+    <string name="triangle_results_gown_option4">Mermaid</string>
+    <string name="triangle_results_gown_option5">Sheath</string>
+
+    <string name="triangle_gown_option1">A-Line\n(Recommended)</string>
+    <string name="triangle_gown_option2">Empire\n(Recommended)</string>
+    <string name="triangle_gown_option3">Ball Gown\n(Recommended)</string>
+    <string name="triangle_gown_option4">Mermaid</string>
+    <string name="triangle_gown_option5">Sheath</string>
+
+    <string name="round_gown_option1">Ball Gown\n(Recommended)</string>
+    <string name="round_gown_option2">A-Line\n(Recommended)</string>
+    <string name="round_gown_option3">Mermaid</string>
+    <string name="round_gown_option4">Sheath</string>
+    <string name="round_gown_option5">Empire</string>
+
+    <string name="round_results_gown_option1">Ball Gown</string>
+    <string name="round_results_gown_option2">A-Line</string>
+    <string name="round_results_gown_option3">Mermaid</string>
+    <string name="round_results_gown_option4">Sheath</string>
+    <string name="round_results_gown_option5">Empire</string>
+
+    <string name="inverted_gown_option1">Ball Gown\n(Recommended)</string>
+    <string name="inverted_gown_option2">Mermaid\n(Recommended)</string>
+    <string name="inverted_gown_option3">A-Line</string>
+    <string name="inverted_gown_option4">Sheath</string>
+    <string name="inverted_gown_option5">Empire</string>
+
+    <string name="inverted_results_gown_option1">Ball Gown</string>
+    <string name="inverted_results_gown_option2">Mermaid</string>
+    <string name="inverted_results_gown_option3">A-Line</string>
+    <string name="inverted_results_gown_option4">Sheath</string>
+    <string name="inverted_results_gown_option5">Empire</string>
+
+    <string name="hourglass_results_gown_option1">Ball Gown</string>
+    <string name="hourglass_results_gown_option2">Mermaid</string>
+    <string name="hourglass_results_gown_option3">Sheath</string>
+    <string name="hourglass_results_gown_option4">A-Line</string>
+    <string name="hourglass_results_gown_option5">Empire</string>
+
+    <string name="hourglass_gown_option1">Ball Gown\n(Recommended)</string>
+    <string name="hourglass_gown_option2">Mermaid\n(Recommended)</string>
+    <string name="hourglass_gown_option3">Sheath\n(Recommended)</string>
+    <string name="hourglass_gown_option4">A-Line</string>
+    <string name="hourglass_gown_option5">Empire</string>
+
+    <!--Neckline-->
+    <string name="neckline_option1">Sweetheart</string>
+    <string name="neckline_option2">StraightAcross</string>
+    <string name="neckline_option3">Asymmetric</string>
+    <string name="neckline_option4">Semi-Sweetheart</string>
+    <string name="neckline_option5">Queenann</string>
+    <string name="neckline_option6">Off Shoulder</string>
+    <string name="neckline_option7">Jewel</string>
+    <string name="neckline_option8">Boatneck</string>
+    <string name="neckline_option9">Halter</string>
+    <string name="neckline_option10">HighNeck</string>
+
+    <!--Train-->
+    <string name="train_option1">Royal\n10ft. long</string>
+    <string name="train_option2">Cathedral\n6ft. long</string>
+    <string name="train_option3">Chapel\n3ft. long</string>
+    <string name="train_option4">Court\n1ft. long</string>
+
+    <string name="results_button">Go Back to Home</string>
+    <string name="per_hour_limit">10</string>
+
+</resources>
